@@ -8,7 +8,7 @@ const Product = ({data, rowNumber}) =>{
                 <div className='w-4/12 ml-3 text-left'>{data.ProductName}
                 </div>
             <div className='w-2/12 text-left'>Prive: </div>
-            <div className='w-2/12 text-left'>{data.price}</div>
+            <div className='w-2/12 text-left 10'>{data.price}</div>
         </div>
     )
 }
